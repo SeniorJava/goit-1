@@ -1,0 +1,33 @@
+
+
+ul{
+	font-weight: bold;
+}
+
+
+a{
+	color: blue
+}
+
+
+a[href^="http"] {
+  color: #f70;
+}
+
+li:nth-child(5) a:after{
+	content: '\2197';
+    border-right: 2px solid;
+    border-top: 2px solid;
+    color: #f70;
+    display: inline-block;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+
+a[href*="google"] {
+  color: #666;
+}
+
+
+

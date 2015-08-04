@@ -1,0 +1,11 @@
+
+p:first-of-type
+{
+	text-transform: uppercase;
+}
+
+
+ p:last-child
+{
+	color: #999;
+}
