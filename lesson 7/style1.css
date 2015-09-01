@@ -1,0 +1,49 @@
+
+
+body{
+	font-size: 14px;
+}
+
+.sivtsev{
+   max-width: 270px;
+    margin: 0 auto;
+    padding: 10px;
+	margin-bottom:80px;
+}
+
+
+.sight01{
+	    word-spacing: 112px;
+    font-size: 535%;
+    margin: 0;
+    margin-bottom: 90px;
+    /* letter-spacing: 0.85em; */
+    text-align: center;
+    /* margin: 0 auto; */
+    padding: 0 10px;
+    padding-left: 10;
+    line-height: 100%;
+}
+
+.sight02{
+       font-size: 464%;
+    word-spacing: 34px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0 10px;
+    line-height: 100%;
+    margin-top: 0;
+}
+
+.sight03{
+    font-size: 428%;
+    word-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+    padding: 0 10px;
+    line-height: 100%;
+    margin-top: -5px;
+}
