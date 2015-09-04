@@ -1,0 +1,104 @@
+.picture-block{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f6f9f9;
+    padding: 20px 20px 115px 20px;
+}
+
+.picture-block-content h1{
+ 	font-size: 41px;
+    font-family: lato;
+    margin-bottom: 20px;
+}
+
+.picture-block-content h4{
+	font-size: 15px;
+	font-family: lato;
+	color: #bdbebe;
+}
+.picture-block-content-grid{
+	margin-top: 60px;
+}
+
+.imag-inn {
+     display: inline-block;
+    background-position: center;
+    background-size: cover;
+    width: 28%;
+    margin: 15px;
+    overflow: hidden;
+    min-height: 219px;
+    min-width: 276px;
+    position: relative;
+    max-height: 260px;
+}
+
+.imag-inn>img{
+    width: 135%;
+    position: absolute;
+    right: -50%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.overlay{
+	background-color: #39aef7;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.7;
+    display: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.imag-inn:hover .overlay{
+	display: block;
+}
+
+.overlay img{
+	width: 100%
+}
+
+.icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+}
+
+.icon img{
+	width: 115%;
+    margin-top: 2px;
+    margin-left: -2px;
+}
+
+.circle img{
+	width: 80%;
+    margin-top: 2px;
+    margin-left: -2px;
+}
+
+.scale{
+    margin: -25px 0 0 -40px;
+}
+
+.circle{
+    margin: -25px 0 0 10px;
+}
+
+.icon:hover{
+	background-color: #25a6f7;
+}
