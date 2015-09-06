@@ -1,0 +1,160 @@
+.picture-block{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f6f9f9;
+    padding: 20px 20px 115px 20px;
+}
+
+.picture-block-content h1{
+ 	font-size: 41px;
+    font-family: lato;
+    margin-bottom: 20px;
+}
+
+.picture-block-content h4{
+	font-size: 15px;
+	font-family: lato , sans-serif;
+	color: #bdbebe;
+}
+.picture-block-content-grid{
+	margin-top: 60px;
+	position: relative;
+}
+
+/*__________________________________________*/
+
+.view-block{
+    position: absolute;
+    width: 100%;
+    margin-bottom: 30px;
+    display: none;
+    z-index: 5;
+}
+
+.view-block img{
+	width: 100%;
+}
+
+.esc{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.esc img{
+    width: 11px;
+}
+
+@media only screen and (max-width:800px) {
+	
+		.esc{
+		    width: 32px;
+		    height: 32px;
+		    line-height: 32px;
+		}
+		.esc img{
+		    width: 10px;
+		}
+}
+
+/*__________________________________________*/
+
+.img-inn {
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    width: 28%;
+    margin: 15px;
+    overflow: hidden;
+    min-height: 219px;
+    min-width: 276px;
+    position: relative;
+    max-height: 260px;
+}
+
+.img-inn>img{
+    width: 135%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.img-inn:hover .overlay{
+	display: block;
+}
+
+.overlay{
+	background-color: #39aef7;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.7;
+    display: none;
+    z-index: 1;
+    cursor: pointer;
+}
+.overlay img{
+	width: 100%
+}
+
+.icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.icon img{
+	width: 115%;
+    margin-top: 2px;
+    margin-left: -2px;
+}
+
+.icon:hover{
+	background-color: #25a6f7;
+}
+
+
+.scale{
+    margin: -25px 0 0 -40px;
+    background-image: url(img/scale.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+
+.circle{
+    margin: -25px 0 0 10px;
+    background-image: url(img/circle.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+
+}
+.circle img{
+	width: 80%;
+    margin-top: 2px;
+    margin-left: -2px;
+}
+
