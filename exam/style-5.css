@@ -1,6 +1,3 @@
-
-
-
 body{
     font-size: 13px;
     font-family: open sans, sans-serif;
@@ -8,13 +5,11 @@ body{
 }
 
 /*_____header____*/
-
 header{
 	background-color: #3498db;
 	padding-top: 17px;
 	padding-bottom: 20px;
 }
-
 .wrap{
 	text-align: center;
     margin: 0 auto;
@@ -22,19 +17,14 @@ header{
 .form-block-wrap{
     clear:both;
 }
-.logo-block{
-
-}
 .logo{
 	width: 55px;
     margin: 0 auto;
 }
-
 .logo img{
 	vertical-align: bottom;
     width: 100%;
 }
-
 .header-wrap p{
     font-size: 153%;
     text-transform: uppercase;
@@ -46,19 +36,15 @@ header{
     width: 170px;
     margin: 0 auto;
 }
-
 .social{
     padding-top: 10px;
     color: white;
 }
-
 .social-title{
     text-transform: capitalize;
     padding-right: 7px;
     display: inline-block;
-
 }
-
 .social-logo{
     display: inline-block;
     vertical-align: middle;
@@ -71,28 +57,23 @@ header{
     background-color: #1513BF;
     border-radius: 10px;
     opacity: 0.6;
-  -webkit-transition-duration: 0.9s;
-  transition-duration: 0.9s;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-   -webkit-transition-property: opacity;
-  transition-property: opacity;
+    -webkit-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
 }
-
-
 
 /*___________main____________*/
 
-
 /*----form-----*/
-
 
 .form-block-greeting{
 	background-image: url(img/form-back.jpg);
 	background-size: cover;
     background-position: center;
 }
-
 .form-block-greeting h1{
     margin: 0;
     color: white;
@@ -100,8 +81,6 @@ header{
     font-size: 308%;
     padding-top: 32px;
 }
-
-
 .form-block-greeting p{
     color: white;
     font-size: 123%;
@@ -111,16 +90,12 @@ header{
     padding-bottom: 150px;
     line-height: 1.8em
 }
-
-
-
 .form{
 	background-color: #f2f2f2;
     z-index: 1;
     text-align: center;
     border-bottom: 1px solid #e8e8e8;
 }
-
 .form-description{
     background-color: #f2f2f2;
     overflow: hidden;
@@ -139,8 +114,6 @@ header{
     margin: 0 auto;
     padding: 15px 0;   
 }
-
-
 .form-input{
     max-width: 340px;
     width: 65%;
@@ -170,11 +143,9 @@ header{
     background-color: #f2f2f2;
     border: 1px solid #e6e6e6;
 }
-
 .form-input label{
     position: relative;
 }
-
 .form-input label:after{
     content: "";
     background-image: url(img/goit/arrow--l.png);
@@ -190,7 +161,6 @@ header{
     right: 10px;
     bottom: 5px;
 }
-
 .form-input .form-input-Adress{
     padding: 7px 7px 50px 7px;
 }
@@ -204,9 +174,7 @@ header{
 	margin-top: 20px;
     margin-bottom: 30px;
     cursor: pointer;
-
 }
-
 
 .form-input input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
 .form-input input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
@@ -237,10 +205,8 @@ header{
     margin: 28px 0;
     font-size: 153%;
 }
-
 .advantages-block-inn{
     margin: 0 auto;
-
 }
 
 .advantages-block-wrap:last-child{
@@ -259,7 +225,6 @@ header{
 }
 .advantages-block-inn>img{
     width: 290px;
-
 }
 
 .advantages-block-inn a{
@@ -281,8 +246,6 @@ header{
 .advantages-block-inn a:last-child{
     margin-bottom: 45px;
 }
-
-
 .advantages-block-inn a:hover{
   background-color: #f2f2f2;
 }
@@ -292,12 +255,7 @@ header{
     max-width: 100%;
 }
 
-
 /*----comments -block-----*/
-.comments{
-
-}
-
 
 .comments-content h2{
     margin: 0 auto;
@@ -332,15 +290,12 @@ header{
     background-color: #f2f2f2;
     opacity: 1;
 }
-.comments-content-button-inn img{
-}
 .right-arrow-button{
     -moz-transform: rotate(180deg); 
     -ms-transform: rotate(180deg); 
     -webkit-transform: rotate(180deg); 
     transform: rotate(180deg);
 }
-
 
 .comments-content-inn{
     margin: 0px auto;
@@ -392,7 +347,6 @@ header{
     text-transform: uppercase;
 }
 
-
 .comments-act{
     background-color: #f2f2f2;
     clear: both;
@@ -440,8 +394,6 @@ header{
 .comments-act-img img{
     vertical-align: bottom;
 }
-
-
 /*----FOOTER-----*/
 
 footer{
@@ -457,15 +409,12 @@ footer{
     width: 225px;
 }
 
-
-/*@media screen and (max-width: 1000px) and (min-width: 800px) 
-*/
 @media screen and (min-width: 800px) {
     .header-wrap:before {
-      content: '';
-      display: inline-block;
-      height: 100%;
-      vertical-align: middle;
+       content: '';
+       display: inline-block;
+       height: 100%;
+       vertical-align: middle;
     }
 
     .logo,.social,.header-wrap p{
@@ -506,7 +455,6 @@ footer{
         margin-bottom: 3px;
         padding-bottom: 10px;
         vertical-align: -webkit-baseline-middle;
-        /*margin-bottom: 8px;*/
         vertical-align: middle;
     }
 
@@ -525,7 +473,6 @@ footer{
         max-width: 300px;
         width: 90%;
     }
-
     .main-wrap{
         text-align: left;
         overflow: hidden;
@@ -547,16 +494,13 @@ footer{
     .form-description p{
         margin: 0;
         max-width: 430px;
-        
     }
-
     .form-description p:nth-child(3){
          padding-bottom: 35px;   
     }
     .form-block-greeting>h1 {
         padding-top: 75px;
     }
-
     .form-wrap{
         min-width: 760px;
         width: 90%;
@@ -574,7 +518,6 @@ footer{
     }
 
 /*----advantages-block-----*/
-
     .advantages-block-wrap{
         min-width: 760px;
         width: 90%;
@@ -590,7 +533,7 @@ footer{
         padding-bottom: 25px;
     }
      .first-block p{
-      padding-bottom: 17px;  
+        padding-bottom: 17px;  
     }
 
     .advantages-block-inn p{
@@ -635,7 +578,6 @@ footer{
         margin: 0;
         padding: 10px 30px 10px 30px;
         max-width: 475px;
-
     }
     .comments-act__bottom p{
         display: inline-block;
@@ -672,7 +614,6 @@ footer{
         margin-bottom: -5px;
         margin-right: 20%;
     }
-  
     .social-img {
         padding-right: 4px;
     }
@@ -682,7 +623,7 @@ footer{
         line-height: 1.6;
     }
     .footer-social-logo{
-         vertical-align: initial;
+        vertical-align: initial;
     }
 
 }
@@ -712,13 +653,10 @@ footer{
     .form-wrap {
         max-width: 990px;
     }
-
     .form-input{
         margin-left: 30px;
     }
-
 /*----advantages-block-----*/
-
     .advantages-block-wrap{
         max-width: 990px;
         text-align: justify;
@@ -735,17 +673,13 @@ footer{
      .advantages-block-inn p{
         min-width: 290px; 
     }
-    
-   
      .advantages-block-wrap:after{
         display: inline-block;
         content: "";
         width: 100%;
     }
 
-
 /*----comments -block-----*/
-
     .comments-content-inn{
         max-width: 730px;
     }
